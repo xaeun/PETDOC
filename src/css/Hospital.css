@@ -123,7 +123,7 @@
 }
 .Hospital .HospitalCate .EachHospital .photo{
     width: 30%;
-    height: 26vw;
+    height: 26vh;
     overflow: hidden;
     border-radius: 5px;
     background-color: #333;

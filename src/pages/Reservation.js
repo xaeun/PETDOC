@@ -116,9 +116,9 @@ const Reservation = () => {
                         minDate={new Date()} // 지난 날짜는 비활성화
                         onClickDay={()=>handleClickmoment}
                     />
-                    <div className="reserDay">
-                        {moment(day).format("YYYY년 MM월 DD일")}
-                    </div>
+                    {/* <div className="reserDay">
+                       {moment(day).format("YYYY년 MM월 DD일")}
+                    </div> */}
       </div>
                 </div>
                 <div className="ReserTime">

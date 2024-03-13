@@ -2,7 +2,11 @@
 .App{
     position: relative;
     width: 100%;
+    max-width: 768px;
     margin: 0 auto;
+}
+.wrap{
+    max-width: 768px;
 }
 .logo{
     padding-top: 55px;
@@ -22,6 +26,8 @@
     left: 0;
     right: 0;
     width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
 }

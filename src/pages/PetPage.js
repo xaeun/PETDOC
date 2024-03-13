@@ -153,6 +153,8 @@ const PetPageTop = styled.div`
     top: 0;
     left: 0;
     right: 0;
+    max-width: 768px;
+    margin : 0 auto;
     padding: 60px 0 10px;
     background-color: #fff;
     z-index: 10;
@@ -173,12 +175,14 @@ const PetPageTop = styled.div`
     div > .mypet.now{
         border-top: 1px solid #999;
         border-right: 1px solid #999;
+        border-left: 1px solid #999;
         border-bottom: 0;
         color: #333;
     }
     div > .reser.now{
         border-top: 1px solid #999;
         border-left: 1px solid #999;
+        border-right: 1px solid #999;
         border-bottom: 0;
         color: #333;
     }

@@ -16,7 +16,8 @@ import { hospitalDummy } from '../src/util/dummy';
 import BottomMenu from './component/BottomMenu';
 import ScrollTop from './component/ScrollTop';
 import '../src/App.css';
-import 'react-calendar/dist/Calendar.css'
+import 'react-calendar/dist/Calendar.css';
+import { FirebaseApp } from 'firebase/app';
 
 const petDummyList = [
     {

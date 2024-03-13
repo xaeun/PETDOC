@@ -3,6 +3,10 @@
 /* Reservation.css */
 .ReserWrap {
     padding: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 768px; 
+    margin: 0 auto;
 }
 .ReserWrap h3{
     color: #333;
@@ -29,7 +33,6 @@
     margin-top: 15px;
     display: flex;
 }
-
 .ReserAnimal div {
     margin-right: 10px;
     margin-bottom: 15px;
@@ -57,6 +60,7 @@
 
 .ReserTime {
     width: 100%;
+    margin: 0 auto 15px auto;
 }
 
 .ReserTime div {
@@ -91,10 +95,9 @@
     margin-bottom: 10px;
 }
 
-
 .ReserFor .Resertext {
     margin: 0 auto 15px auto;
-    width: 90%;
+    width: 100%;
     height: 100px;
 }
 
@@ -106,8 +109,9 @@
 .ReserCalendar {
     width: 100%;
 }
-.reservecalendar{
-    margin-bottom: 10px;
+.ReserCalendar .react-calendar{
+    width: 100%;
+    margin: 0 auto 15px auto;
 }
 .reserDay{
     margin-bottom: 10px;
@@ -119,6 +123,7 @@
 /* reserDay */
 .reserDay{
     font-size: 16px;
+    width: 100%;
 }
 
 /* ReserTime */
@@ -153,6 +158,7 @@
     right: 0;
     bottom: 5%;
     width: 90%;
+    max-width: 768px;
     padding: 20px;
     margin: 0 auto;
     box-sizing: border-box;
